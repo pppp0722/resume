@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.c9b1b54f.js",
+    "main.js": "/resume/static/js/main.d3d95d68.js",
+    "static/media/github.jpg": "/resume/static/media/github.c39f7e7463923f5ff6d6.jpg",
     "index.html": "/resume/index.html",
-    "main.c9b1b54f.js.map": "/resume/static/js/main.c9b1b54f.js.map"
+    "main.d3d95d68.js.map": "/resume/static/js/main.d3d95d68.js.map"
   },
   "entrypoints": [
-    "static/js/main.c9b1b54f.js"
+    "static/js/main.d3d95d68.js"
   ]
 }
