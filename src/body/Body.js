@@ -192,11 +192,17 @@ const Text3 = styled.div`
     font-size: 21px;
     font-weight: bold;
     margin-bottom: 10px;
+    @media only screen and (max-width: 960px) {
+        font-size: 18px;
+    }
 `
 
 const Text4 = styled.div`
     font-size: 18px;
     margin-bottom: 10px;
+    @media only screen and (max-width: 960px) {
+        font-size: 16px;
+    }
 `
 
 const Items = styled.div`

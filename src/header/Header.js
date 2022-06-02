@@ -60,9 +60,9 @@ const Text1 = styled.div`
 `
 
 const Text2 = styled.div`
-    font-size: 30px;
+    font-size: 24px;
     @media only screen and (max-width: 960px) {
-        font-size: 20px;
+        font-size: 18px;
     }
 `
 
@@ -83,12 +83,9 @@ const Image = styled.img`
 
 const LinkDiv = styled.div`
     margin: 0 15px 0 15px;
-    display: inline-block;
     font-size: 21px;
     height: 80px;
     line-height: 80px;
-    font-weight: bold;
-    color: #374D9A;
     @media only screen and (max-width: 960px) {
         margin: 0 10px 0 10px;
         font-size: 18px;
@@ -121,7 +118,6 @@ const ImgLink = styled.a`
     &:link {
     }
     &:visited {
-
     }
     &:hover {
         transition: 0.5s;
