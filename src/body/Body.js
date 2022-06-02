@@ -76,8 +76,8 @@ const Body = () => {
                         </Item>
                         <Item>
                             <Text3>프로젝트</Text3>
-                            <Text4><a href='https://github.com/pppp0722/track-me' target='_blank'>블루투스 기반 체크인 및 역학조사 자동화 시스템</a> (2021.03 ~2021.06)</Text4>
-                            <Text4><a href='https://github.com/pppp0722/pallete' target='_blank'>퍼스널컬러 분석 및 화장품 추천 어플리케이션</a> (2020.09 ~ 2020.12)</Text4>
+                            <Text4><Link href='https://github.com/pppp0722/track-me' target='_blank'><i>블루투스 기반 체크인 및 역학조사 자동화 시스템</i></Link> (2021.03 ~2021.06)</Text4>
+                            <Text4><Link href='https://github.com/pppp0722/pallete' target='_blank'><i>퍼스널컬러 분석 및 화장품 추천 어플리케이션</i></Link> (2020.09 ~ 2020.12)</Text4>
                             <Text4>AI 표정인식 식단추천 시스템 (해커톤)  (2020.07) </Text4>
                         </Item>
                         <Item>
@@ -124,7 +124,6 @@ const Body = () => {
 
 const Container = styled.div`
     width: 90%;
-    margin-top: 30px;
 `
 
 const Point = styled.div`
@@ -207,6 +206,25 @@ const Items = styled.div`
 
     @media only screen and (min-width: 960px) {
         width: 70%;
+    }
+`
+
+const Link = styled.a`
+    &:link {
+        color : grey;
+        text-decoration: none;
+    }
+    &:visited {
+        color : grey;
+        text-decoration: none;
+    }
+    &:hover {
+        color : grey;
+        text-decoration: underline;
+    }
+    &:active {
+        color : grey;
+        text-decoration: none;
     }
 `
 

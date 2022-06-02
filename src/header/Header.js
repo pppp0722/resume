@@ -7,9 +7,9 @@ const Header = () => {
                 <Text1>반갑습니다<Point>!</Point></Text1>
                 <Text1>저는 이일환입니다<Point>.</Point></Text1>
             </Top>
-            <Bottom>
+            <Mid>
                 <Text2>백엔드 개발자를 희망하고 있으며 주어진 문제를 효율적으로 해결하기 위해 고민하는 과정들을 좋아합니다. 단순 구현만 하는 개발자가 아닌, 사용하는 모든 것들을 이해하며 사용하는 개발자가 되고 싶습니다.</Text2>
-            </Bottom>
+            </Mid>
         </Container>
     );
 }
@@ -20,10 +20,15 @@ const Container = styled.div`
 `
 
 const Top = styled.div`
+    margin-bottom: 30px;
+`
+
+const Mid = styled.div`
+    margin-bottom: 30px;
 `
 
 const Bottom = styled.div`
-    margin-top: 30px;
+    margin-bottom: 30px;
 `
 
 const Point = styled.div`
